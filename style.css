@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+   
+}
+.container{
+    background-color: rgb(159, 174, 227);
+    min-height: 100vh;
+    border: 10px solid rgb(27, 27, 109);
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.image_container,img{
+    width: 300px;
+    height: 320px;
+    border-radius: 30%;
+}
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+
+}
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(27, 27, 109);
+}
+.top_section h4{
+    font-size: 25px;
+    text-align: end;
+}
+.About{
+    margin-top: 50px;
+}
+.About h2{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
